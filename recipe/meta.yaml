@@ -31,12 +31,12 @@ requirements:
     - zlib
     - requests
     - rdkit
-    - tensorflow =1.14.0
 
 test:
+  requires:
+    - tensorflow =1.14.0
   imports:
     - deepchem
-
   commands:
     - python run_test.py
 
