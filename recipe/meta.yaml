@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "PBR_VERSION=${PKG_VERSION} && export PBR_VERSION && {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
