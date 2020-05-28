@@ -31,11 +31,11 @@ requirements:
     - zlib
     - requests
     - rdkit
-    - joblib
 
 test:
   requires:
     - tensorflow =1.14.0
+    - scikit-learn =0.22.1
   imports:
     - deepchem
   commands:
